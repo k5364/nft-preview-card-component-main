@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Outfit";
+    src: url(/assets/fonts/Outfit-VariableFont_wght.ttf);
+}
+/* 
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+} 
+*/
+body {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300, 400, 600;
+    background-color: hsl(217, 54%, 11%)
+}
+
+/* Configuração Card */
+
+div#card {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 12px;
+    width: 340px;
+    height: 580px;
+    margin: 45px 550px 45px 550px;
+    color: #fff;
+}
+div#card p {
+    margin-left: 20px;
+}
+div#card img.NFT {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 5px 20px;
+}
+div#card h1 {
+    font-weight: 600;
+    font-size: 21px;
+    margin-left: 20px;
+}
+div#card p.Legenda {
+    font-weight: 200;
+    font-size: 18px;
+    opacity: 0.6;
+}
+.Info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0px 20px;
+    margin-top: -6px;
+}
+.Info .Info__Moeda {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.Info__Moeda .Icon {
+    margin-right: -13px;
+}
+.Info__Moeda .Moeda {
+    font-size: 15px;
+    color: hsl(178, 100%, 50%);
+}
+
+.Info .Info__Dia {
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Info__Dia .Icon {
+    margin-right: -14px;
+}
+.Info__Dia .Dia {
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+#footer img {
+    border-radius: 50%;
+    border: 1px solid white;
+    width: 30px;
+    margin-right: -5px;
+}
+#footer p {
+    font-weight: 200;
+    font-size: 16px;
+}
+#footer strong {
+    font-weight: 200;
+    opacity: 0.7;
+}
